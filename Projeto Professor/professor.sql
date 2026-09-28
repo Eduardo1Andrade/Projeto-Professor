@@ -122,7 +122,7 @@ WHERE (cidade = 'Teresina' AND salario > 6000) OR (cidade = 'Parnaíba' AND idad
 -- EX
 
 SELECT * FROM professor
-WHERE cidade = 'Codó' AND salario < 1000;
+WHERE cidade = 'Codó' AND salario < 1000; -- quem mora em codó em ganha menos de um salario minimo
 
 SELECT * FROM professor 
-WHERE id > 5 OR id < 2
+WHERE id > 5 OR id < 2 -- quem tem id abaixo de 2 ou acima de 5
